@@ -20,10 +20,10 @@ environments {
         dataSource {
             pooled = true
             dbCreate = "update"
-            url = "jdbc:mysql://127.0.0.1:3306/chem"
+            url = "jdbc:mysql://db-mysql-nyc3-50382-do-user-1532664-0.b.db.ondigitalocean.com:25060/chem"
             driverClassName = "com.mysql.jdbc.Driver"
-            username = "root"
-            password = "admin"
+            username = "doadmin"
+            password = "zoe6omm0e56y5ffp"
         }
     }
     test {
@@ -35,10 +35,10 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-            url = "jdbc:mysql://46.101.124.62:3306/chem"
+            url = "jdbc:mysql://db-mysql-nyc3-50382-do-user-1532664-0.b.db.ondigitalocean.com:25060/chem"
             driverClassName = "com.mysql.jdbc.Driver"
-            username = "mihed"
-            password = "Matricaria1993"
+            username = "doadmin"
+            password = "zoe6omm0e56y5ffp"
             properties {
                jmxEnabled = true
                initialSize = 5
