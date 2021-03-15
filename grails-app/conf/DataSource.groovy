@@ -1,7 +1,7 @@
 dataSource {
     pooled = true
     jmxExport = true
-    driverClassName = "org.h2.Driver"
+    driverClassName = "com.mysql.cj.jdbc.Driver"
     username = "sa"
     password = ""
 }
@@ -21,7 +21,7 @@ environments {
             pooled = true
             dbCreate = "update"
             url = "jdbc:mysql://db-mysql-nyc3-50382-do-user-1532664-0.b.db.ondigitalocean.com:25060/chem"
-            driverClassName = "com.mysql.jdbc.Driver"
+            driverClassName = "com.mysql.cj.jdbc.Driver"
             username = "doadmin"
             password = "zoe6omm0e56y5ffp"
         }
@@ -36,7 +36,7 @@ environments {
         dataSource {
             dbCreate = "update"
             url = "jdbc:mysql://db-mysql-nyc3-50382-do-user-1532664-0.b.db.ondigitalocean.com:25060/chem"
-            driverClassName = "com.mysql.jdbc.Driver"
+            driverClassName = "com.mysql.cj.jdbc.Driver"
             username = "doadmin"
             password = "zoe6omm0e56y5ffp"
             properties {
